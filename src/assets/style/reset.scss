@@ -1,0 +1,79 @@
+body,html{
+  position:relative;
+  font-size:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* 消除移动端 长按出现灰色背景*/
+  -webkit-tap-highlight-color:rgba(255,255,255,0)
+}
+body{
+  font-family:"AvenirNext-Medium","PingFang SC","Microsoft YaHei","Simsun",Helvetica,Arial,Verdana,sans-serif;
+  color:#000;
+  -webkit-text-size-adjust:100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-family:"AvenirNext-Bold","Helvetica Neue","PingFang SC","Microsoft YaHei","Simsun",Helvetica,Arial,Verdana,sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+article,
+aside,
+body,
+dialog,
+figure,
+footer,
+h4,
+header,
+li,
+menu,
+nav,
+p,
+section,
+ul{
+  display:block;
+  margin:0;
+  padding:0;
+}
+ul{
+  list-style:none;
+}
+img{
+  display: block;
+  width: 100%;
+}
+a,
+input,
+select,
+textarea{
+  outline:0;
+}
+input:focus{
+  -webkit-tap-highlight-color:transparent;
+  -webkit-user-modify:read-write-plaintext-only;
+}
+a{
+  text-decoration:none;
+  -webkit-tap-highlight-color:transparent;
+}
+textarea{
+  resize:none;
+}
+button{
+  border: 0;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+/* 去掉数字输入框 箭头*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
